@@ -1,0 +1,50 @@
+# =============================================
+# PluginFox Tab List - Clean & Modern Config
+# Copy everything below and replace your config.yml
+# =============================================
+
+# ==================== HEADER ====================
+header:
+  - "&r"
+  - "&6&lSERVER NAME &7| &fplay.twojserwer.pl"
+  - "&aOnline: &f%online% &7/ &f%max_players% &8| &cAdministracja: &f%staff_online%"
+  - "&bTPS: &f%tps% &8| &7Twój ping: &f%ping%ms"
+  - "&r"
+
+# ==================== FOOTER ====================
+footer:
+  - "&r"
+  - "&fIP serwera: &bplay.twojserwer.pl"
+  - "&7Hespryj serwer, kupuj tokeny! &f/przelew &7| &f/psc &7| &f/sms"
+  - "&8Raz pierwszy na serwerze? &7/przelew, /psc, /sms"
+  - "&r"
+
+# ==================== PLAYER FORMAT ====================
+# This shows rank + name (ranks come from TABROLES plugin)
+player-format: "%tabroles_prefix%%player%%tabroles_suffix%"
+
+# Optional: Add colored ping on the right side of names
+# If your plugin supports suffix, use this instead:
+# player-format: "%tabroles_prefix%%player%%tabroles_suffix% &r%ping_color%%ping%ms"
+
+# ==================== PING COLORS ====================
+# Add these placeholders if your plugin supports them (via PlaceholderAPI)
+# %ping_color% - colored ping
+# Example: &a for good, &e medium, &c bad
+
+# ==================== SORTING ====================
+# Higher ranks appear first (ensure these match your TABROLES role names)
+sorting:
+  - owner
+  - Manager
+  - admin
+  - MOD
+  - Helper
+  - vip
+  - default
+
+# ==================== TABROLES INTEGRATION ====================
+# This config is now set up to work with TABROLES plugin
+# Make sure TABROLES is installed and configured with the above roles
+# TABROLES handles prefix/suffix assignment based on permissions
+# Sorting priority should be configured in TABROLES config.yml
