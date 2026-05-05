@@ -1,0 +1,19 @@
+# Scoreboard Title
+title: "&6&lYour Server Name"
+
+# Lines of the scoreboard (max 15)
+# Use & colors, and placeholders: {player}, {online}, {ip}, {ping}, {rank}, etc.
+lines:
+  - "&7&m------------------"
+  - "&fServer: &b{servername}"
+  - "&fOnline: &a{online}&7/&c{maxonline}"
+  - "&7&m------------------"
+  - "&fPlayer: &e{player}"
+  - "&fRank: &6{rank}"
+  - " "
+  - "&fWebsite: &bexample.com"
+  - "&fIP: &f{ip}"
+  - " "
+  - "&7&m------------------"
+  - "&a&lHave Fun!"
+  - "&7&m------------------"
